@@ -1,5 +1,5 @@
 import java.util.Random;
-public class Shape_Utilities implements Shape{
+public class Shape_Utilities{
 	public static Shape getRandomShape()
 	{
 		Random r = new Random();
