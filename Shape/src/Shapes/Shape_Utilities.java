@@ -1,3 +1,4 @@
+package Shapes;
 import java.util.Random;
 public class Shape_Utilities{
 	public static Shape getRandomShape()
