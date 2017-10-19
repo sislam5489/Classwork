@@ -28,7 +28,7 @@ public class Runner {
 		}
 		System.out.println("\nDid the three shapes above add up to the total printed here?\n");
 		System.out.println("Total Area: " + ShapeUtilities.sumArea(shapeArr)); // 168.26
-		System.out.println("Total Perimeter: " + ShapeUtilities.sumPerimeter(shapeArr)); // 86.84
+		System.out.println("Toxctal Perimeter: " + ShapeUtilities.sumPerimeter(shapeArr)); // 86.84
 		System.out.println("\nDid the three shapes above add up to the total printed here?\n");
 
 		System.out.println("\n\n Now testing the random array.\n");
