@@ -1,5 +1,5 @@
 package Person;
 
-public class Student implements Person{
+public class Student extends Person{
 
 }

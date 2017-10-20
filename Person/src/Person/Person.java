@@ -1,5 +1,5 @@
 package Person;
 
-public interface Person {
+public abstract class Person {
 
 }
