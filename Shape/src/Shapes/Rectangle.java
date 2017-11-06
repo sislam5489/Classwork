@@ -2,29 +2,29 @@ package Shapes;
 
 public class Rectangle implements Shapes {
 
-	private int length;
-	private int width;
+	private double length;
+	private double width;
 
-	public Rectangle(int length, int width) {
-		this.length = length;
-		this.width = width;
+	public Rectangle(double side, double side2) {
+		this.length = side;
+		this.width = side2;
 	}
 
 
-	public double calculateArea() {
+	public double area() {
 		// To be written by student
-		return 0.0;
+		return length*width;
 	}
 
 
-	public double calculatePerimeter() {
+	public double perimeter() {
 		// To be written by student
-		return 0.0;
+		return 2*length+2*width;
 	}
 
 
 	public String toString() {
-		return "Rectangle Width: " + width + " Length: " + length + " Area: " + this.calculateArea() + " Perimeter: "
-				+ this.calculatePerimeter();
+		return "Rectangle Width: " + width + " Length: " + length + " Area: " + this.area() + " Perimeter: "
+				+ this.perimeter();
 	}
 }
