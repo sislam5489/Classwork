@@ -24,10 +24,11 @@ public class BinarySearch {
 			}
 			if(guess>query)
 			{
-				return binarySearch(nums,query,first,index-1);
+				return binarySearch(nums,query,first-1,index);
 				
 			}
-			return binarySearch(nums,query,index,last);
+			if(last<=nums.length)
+			return binarySearch(nums,query,index,last+1);
 			
 		}
 		return -1;
