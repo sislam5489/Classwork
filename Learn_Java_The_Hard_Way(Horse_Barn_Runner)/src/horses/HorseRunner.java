@@ -14,13 +14,13 @@ public class HorseRunner {
 		horses[5] = horse3;
 		HorseBarn barn = new HorseBarn(horses);
 		
-		barn.printBarn();
+		System.out.println(barn.toString());
 		
 		System.out.println(" Dusty Trail is in space: " + barn.findHorseSpace("Dusty Trail"));
 		
 		barn.consolidate();
 		
-		barn.printBarn();
+		System.out.println(barn.toString());
 		System.out.println(" Dusty Trail is now in space: " + barn.findHorseSpace("Dusty Trail"));
 	}
 }

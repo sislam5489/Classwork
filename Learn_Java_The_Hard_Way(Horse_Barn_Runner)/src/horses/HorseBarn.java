@@ -38,13 +38,19 @@ public class HorseBarn {
 			}
 		}
 	}
-	public void printBarn()
+	public String toString()
 	{
+		String barn = "";
 		for(int i = 0;i<spaces.length-1;i++) {
 			if(this.spaces[i]!=null)
 			{
-				System.out.println(spaces[i].getName());
+				barn+="[" + this.spaces[i].getName() + "]";
+			}
+			else
+			{
+				barn+="[" + "]";
 			}
 		}
+		return barn;
 	}
 }
