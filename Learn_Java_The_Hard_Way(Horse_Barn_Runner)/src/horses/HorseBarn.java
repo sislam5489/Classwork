@@ -48,7 +48,7 @@ public class HorseBarn {
 			}
 			else
 			{
-				barn+="[" + "]";
+				barn+="[" + null + "]";
 			}
 		}
 		return barn;
