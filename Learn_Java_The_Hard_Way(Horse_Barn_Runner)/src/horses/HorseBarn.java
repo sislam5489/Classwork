@@ -41,7 +41,7 @@ public class HorseBarn {
 	public String toString()
 	{
 		String barn = "";
-		for(int i = 0;i<spaces.length-1;i++) {
+		for(int i = 0;i<spaces.length;i++) {
 			if(this.spaces[i]!=null)
 			{
 				barn+="[" + this.spaces[i].getName() + "]";
